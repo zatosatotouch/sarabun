@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'DBHelvethaicaX';
+  src: url('../fonts/DBHelvethaicaX.eot') format('embedded-opentype'),
+  		url('../fonts/DBHelvethaicaX.woff') format('woff'),
+  		url('../fonts/DBHelvethaicaX.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+a,p,span,h2,h4 {
+	font-family: 'DBHelvethaicaX';
+	font-size: 1.5em;
+}
+.btn{
+	font-family: 'DBHelvethaicaX';
+}
+#mapbar{
+	display: inline-block;
+}
+	header{
+		font-family: :'DBHelvethaicaX', sans-serif;
+	}
+	@media screen and (max-width: 600px) {
+ 			 #picbig {
+   			 visibility: hidden;
+   			 clear: both;
+   			 float: left;
+   			 margin: 10px auto 5px 20px;
+  			  width: 28%;
+   				 display: none;
+  				}
+				}
+	#picbig{
+		padding: 10px;
+		position: relative;
+	}
+	.picbig-text{
+		position:absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
